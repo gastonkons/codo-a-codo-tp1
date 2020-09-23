@@ -1,0 +1,65 @@
+.form__more {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.form__more label {
+  padding: 5px;
+}
+
+.form__more input,
+.form__more select {
+  height: 40px;
+  padding: 5px;
+  cursor: pointer;
+  -moz-outline-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+}
+
+.form__more select:hover,
+.form__more input:hover {
+  background: var(--yellow-color);
+  cursor: pointer;
+}
+
+.form__more input:hover::placeholder {
+  color: #000;
+}
+
+.form__more select:focus {
+  border: 1px solid var(--yellow-color);
+  outline: 0;
+}
+
+.form__more select option:hover,
+.form__more select option:focus,
+.form__more select option:checked,
+.form__more select option:active,
+.form__more select:hover {
+  background: var(--yellow-color);
+  cursor: pointer;
+}
+
+.form__more input[type="submit"] {
+  background: var(--yellow-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease;
+}
+
+.form__more input[type="submit"]:hover {
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  color: black;
+}

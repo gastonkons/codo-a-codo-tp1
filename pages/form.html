@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codo a Codo: Full Stack con Python</title>
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header__img-content">
+        <a href="/">
+          <img src="../assets/images/header.png" alt="Codo a Codo" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <ul>
+            <li>
+              <a href="./cursos.html">
+                <i class="fa fa-align-center"></i> Cursos
+              </a>
+            </li>
+            <li>
+              <a href="https://gastonkons.com" target="_blank">
+                <i class="fa fa-link"></i> Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/gastonkons" target="_blank">
+                <i class="fa fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="mailto:gastonkons@gmail.com" target="_blank">
+                <i class="fa fa-at"></i>
+                Contácto
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <form class="form__more" action="./status.html">
+          <label for="name">Ingrese su Nombre:</label>
+          <input type="text" name="name" placeholder="Nombre" id="name" />
+          <label for="email">Ingrese su Correo Electrónico:</label>
+          <input
+            type="text"
+            name="email"
+            placeholder="Correo Electrónico"
+            id="email"
+          />
+          <label for="country">Ingrese su Nacionalidad:</label>
+          <select name="country" id="country">
+            <option value="pais" disabled selected>Pais</option>
+            <option value="argentina">Argentina</option>
+            <option value="mexico">México</option>
+            <option value="chile">Chile</option>
+            <option value="peru">Peru</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="otro">Otro</option>
+          </select>
+          <input type="submit" value="Recibir más información" />
+        </form>
+      </main>
+    </div>
+    <section class="section__cta">
+      <a href="../index.html">
+        <h3>Regresar</h3>
+      </a>
+    </section>
+    <footer>
+      <p>
+        Creado por
+        <a href="https://gastonkons.com" target="_blank"
+          >Gastón Konstantinides</a
+        >
+        para <span style="color: #face09">Codo a Codo</span>
+      </p>
+    </footer>
+  </body>
+</html>
